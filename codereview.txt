@@ -1,0 +1,12 @@
+1.Rozdzielenie DTO/Encji od logiki.
+2.Wydzielenie walidatorów.
+3.Oddzielenie logiki zarządzania wartościami licznika od produktu.
+4.Dodanie intefejsów.
+5.Dodanie strict_types=1.
+6.Redukcja if.
+7.Wydzielenie stałych.
+8.W zależności od szerszego kontekstu można:
+-wydzielić warstwę abstrakcji dla produktu (np. różne typy produktów)
+-zmienić sposób zasilania obiektu produktu danymi
+-zmienić strukturę katalogu
+-dodać logowanie i/lub obsługę błędów
